@@ -1,0 +1,18 @@
+[project]
+name = "example-pyproject"
+version = "0.0.1a1"
+description = "Example packaging project"
+license = "MIT"
+license-files = ["LICENSE.txt"] 
+authors = [
+    {name = "Tess Goodman", email = "tessgood@bu.edu"}
+]
+maintainers = [
+    {name = "Tess Goodman", email = "tessgood@bu.edu"}
+]
+dependencies = [
+    "numpy >= 1.1",
+    'pandas >= 1.2",
+]
+
+
